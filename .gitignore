@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 构建产物
+*.apk
+*.aab
+*.ap_
+*.dex
+out/
+dist/
+
+# 签名文件（绝对不要提交私钥）
+*.jks
+*.keystore
+keystore/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 构建期下载的依赖
+libs/
